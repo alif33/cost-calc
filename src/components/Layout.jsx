@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 
 export default function Layout() {
   return (
-    <div className="grid grid-cols-1 mx-auto lg:grid-cols-12 gap-6">
+    <div className="grid grid-cols-1 mx-auto lg:grid-cols-12 gap-6 lg:absolute top-20 left-10 right-3">
       <div className="lg:col-span-9">
         <div className="max-h-[150px] flex items-center py-3 gap-4 w-1/2">
           <h1 className="text-[20px]">Targeting</h1>
@@ -17,7 +17,7 @@ export default function Layout() {
         <GeoGraphicCriteria />
         <Segmentation />
       </div>
-      <div className="lg:col-span-3 hidden lg:block bg-white shadow-xl">
+      <div className="lg:col-span-3 hidden max-h-[550px] fixed top-[70px] right-9 lg:block bg-white shadow-xl">
         <Sidebar />
       </div>
     </div>

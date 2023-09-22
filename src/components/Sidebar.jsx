@@ -5,7 +5,7 @@ import { PiUsersThreeFill } from "react-icons/pi";
 
 export default function Sidebar() {
   return (
-    <div>
+    <div className="">
       <div className="px-5">
         <div className="flex gap-2 items-center text-[var(--nbviolet)] font-medium text-lg py-5">
           <BiTargetLock size={22} />
